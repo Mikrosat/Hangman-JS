@@ -14,7 +14,7 @@ body{
 }
 #gameBoard{
     width: 900px;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 48px;
@@ -31,6 +31,24 @@ body{
     width: 450px;
     text-align: center;
     min-height: 280px;
+}
+#sloganCategory{
+    text-align:center;
+}
+#muteBtn{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+.muteIcon{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    text-align: center;
+    margin: auto;
 }
 .letter{
     width: 30px;
@@ -55,13 +73,5 @@ body{
     font-size: 48px;
 }
 .reset:hover{
-    color: white;
-}
-.loseReset{
-    color: rgb(0, 189, 0);
-    cursor: pointer;
-    font-size: 48px;
-}
-.loseReset:hover{
     color: white;
 }
